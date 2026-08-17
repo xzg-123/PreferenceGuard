@@ -1,0 +1,16 @@
+{
+  "phase": "PHASE_1D",
+  "status": "COMPLETE",
+  "contamination": {
+    "development_main_membership_violations": 0,
+    "development_reserve_ids": 0,
+    "frozen_validation_ids": 0,
+    "phase_0_exclusion_ids": 0,
+    "duplicate_epoch_keys": 0
+  },
+  "runtime_complete": true,
+  "treatment_instruction_sha256": "76addb0d51e93571184b252321a43bd27ab209bb87d004c21347153cc94e5b43",
+  "api_calls": "Recorded in formal Inspect logs",
+  "no_reserve_execution": true,
+  "no_frozen_validation_execution": true
+}

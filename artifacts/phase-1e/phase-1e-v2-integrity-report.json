@@ -1,0 +1,30 @@
+{
+  "phase": "PHASE_1E",
+  "status": "PHASE_1E_EXECUTION_INCOMPLETE",
+  "treatment_id": "MEMORY_AUTHORITY_PROCEDURE_V2",
+  "cross_domain": {
+    "log": "artifacts/phase-1e/logs/2026-08-15T23-05-09-00-00_persistbench-cross-domain_Q7jjNi4icUF9sLLEznzp3Q.eval",
+    "log_status": "error",
+    "required_valid_scored_records": 60,
+    "recorded_samples": 36,
+    "valid_scored_records": 34,
+    "sample_errors": 2,
+    "missing_valid_slots": [
+      "persistbench_a173ee7a:epoch=3", "persistbench_aa19c18b:epoch=3", "persistbench_19d9b6b0:epoch=3", "persistbench_32deee31:epoch=3", "persistbench_7554e34a:epoch=3", "persistbench_ffee2940:epoch=3", "persistbench_447e08a5:epoch=3", "persistbench_a001068f:epoch=3", "persistbench_d5718e1c:epoch=3", "persistbench_2eca426e:epoch=3", "persistbench_82ab33a5:epoch=3", "persistbench_838e7877:epoch=3", "persistbench_ee1bf6af:epoch=3", "persistbench_f78883e3:epoch=3", "persistbench_70cb0bf1:epoch=2", "persistbench_70cb0bf1:epoch=3", "persistbench_380f234d:epoch=2", "persistbench_380f234d:epoch=3", "persistbench_3a410733:epoch=2", "persistbench_3a410733:epoch=3", "persistbench_c51c3c8b:epoch=2", "persistbench_c51c3c8b:epoch=3", "persistbench_aebb0255:epoch=2", "persistbench_aebb0255:epoch=3", "persistbench_788eb782:epoch=2", "persistbench_788eb782:epoch=3"
+    ],
+    "error_slots": [
+      {"slot": "persistbench_70cb0bf1:epoch=2", "error": "OpenRouter/Kimi Judge upstream shared-pool rate limit (HTTP 429); scorer exhausted its internal attempt handling and raised RetryError."},
+      {"slot": "persistbench_380f234d:epoch=2", "error": "CancelledError after task cancellation caused by the prior Judge failure."}
+    ]
+  },
+  "continuation": {
+    "sycophancy_started": false,
+    "beneficial_memory_started": false,
+    "formal_v2_metrics_computed": false,
+    "final_development_decision_issued": false,
+    "automatic_rerun_performed": false,
+    "new_recovery_policy_created": false
+  },
+  "preservation": {"partial_cross_domain_records_preserved": 34, "reserve_accessed": false, "frozen_validation_accessed": false, "v3_created": false},
+  "next_action_requires_explicit_user_direction": true
+}

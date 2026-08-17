@@ -1,0 +1,251 @@
+{
+  "counts_by_task": {
+    "persistbench_beneficial_memory": 6,
+    "persistbench_cross_domain": 3,
+    "persistbench_sycophancy": 3
+  },
+  "policy": "All PHASE_0_EXPOSED_ONLY logical samples are excluded from every Phase 1 split.",
+  "records": [
+    {
+      "exclusion_status": "EXCLUDED_FROM_DEVELOPMENT_MAIN_DEVELOPMENT_RESERVE_FROZEN_VALIDATION",
+      "exposure_reason": [
+        "JUDGE_CALIBRATION_ONLY",
+        "PHASE_0D_SMOKE_OR_GATE",
+        "PHASE_0_EXPOSED_ONLY"
+      ],
+      "logical_sample_id": "persistbench_13637a79",
+      "source_artifacts": [
+        "artifacts/phase-0d-cli-smoke/logs/2026-08-15T11-57-33-00-00_persistbench-beneficial-memory_9x4bgp6k4pgiQ7gF9u9nUT.eval",
+        "artifacts/phase-0d-cli-smoke/logs/2026-08-15T12-06-07-00-00_persistbench-beneficial-memory_59f3cS2CPqTUavvPk36SaF.eval",
+        "artifacts/phase-0e/blind-reviewer-b-results.json",
+        "artifacts/phase-0e/judge-calibration-manifest.json",
+        "artifacts/phase-0f/official-kimi-judge-results.jsonl"
+      ],
+      "source_phase": [
+        "PHASE_0D",
+        "PHASE_0E",
+        "PHASE_0F"
+      ],
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "exclusion_status": "EXCLUDED_FROM_DEVELOPMENT_MAIN_DEVELOPMENT_RESERVE_FROZEN_VALIDATION",
+      "exposure_reason": [
+        "JUDGE_CALIBRATION_ONLY",
+        "PHASE_0_EXPOSED_ONLY"
+      ],
+      "logical_sample_id": "persistbench_317e2bd7",
+      "source_artifacts": [
+        "artifacts/phase-0e/blind-reviewer-b-results.json",
+        "artifacts/phase-0e/human-audit-hidden-map.json",
+        "artifacts/phase-0e/judge-calibration-manifest.json",
+        "artifacts/phase-0f/official-kimi-judge-results.jsonl"
+      ],
+      "source_phase": [
+        "PHASE_0E",
+        "PHASE_0F"
+      ],
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "exclusion_status": "EXCLUDED_FROM_DEVELOPMENT_MAIN_DEVELOPMENT_RESERVE_FROZEN_VALIDATION",
+      "exposure_reason": [
+        "JUDGE_CALIBRATION_ONLY",
+        "PHASE_0_EXPOSED_ONLY"
+      ],
+      "logical_sample_id": "persistbench_6f2ae60a",
+      "source_artifacts": [
+        "artifacts/phase-0e/blind-reviewer-b-results.json",
+        "artifacts/phase-0e/judge-calibration-manifest.json",
+        "artifacts/phase-0f/official-kimi-judge-results.jsonl"
+      ],
+      "source_phase": [
+        "PHASE_0E",
+        "PHASE_0F"
+      ],
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "exclusion_status": "EXCLUDED_FROM_DEVELOPMENT_MAIN_DEVELOPMENT_RESERVE_FROZEN_VALIDATION",
+      "exposure_reason": [
+        "JUDGE_CALIBRATION_ONLY",
+        "PHASE_0_EXPOSED_ONLY"
+      ],
+      "logical_sample_id": "persistbench_8bdf96b4",
+      "source_artifacts": [
+        "artifacts/phase-0e/blind-reviewer-b-results.json",
+        "artifacts/phase-0e/judge-calibration-manifest.json",
+        "artifacts/phase-0f/official-kimi-judge-results.jsonl"
+      ],
+      "source_phase": [
+        "PHASE_0E",
+        "PHASE_0F"
+      ],
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "exclusion_status": "EXCLUDED_FROM_DEVELOPMENT_MAIN_DEVELOPMENT_RESERVE_FROZEN_VALIDATION",
+      "exposure_reason": [
+        "JUDGE_CALIBRATION_ONLY",
+        "PHASE_0_EXPOSED_ONLY"
+      ],
+      "logical_sample_id": "persistbench_978a1455",
+      "source_artifacts": [
+        "artifacts/phase-0e/blind-reviewer-b-results.json",
+        "artifacts/phase-0e/human-audit-hidden-map.json",
+        "artifacts/phase-0e/judge-calibration-manifest.json",
+        "artifacts/phase-0f/official-kimi-judge-results.jsonl"
+      ],
+      "source_phase": [
+        "PHASE_0E",
+        "PHASE_0F"
+      ],
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "exclusion_status": "EXCLUDED_FROM_DEVELOPMENT_MAIN_DEVELOPMENT_RESERVE_FROZEN_VALIDATION",
+      "exposure_reason": [
+        "JUDGE_CALIBRATION_ONLY",
+        "PHASE_0_EXPOSED_ONLY"
+      ],
+      "logical_sample_id": "persistbench_fd655e94",
+      "source_artifacts": [
+        "artifacts/phase-0e/blind-reviewer-b-results.json",
+        "artifacts/phase-0e/human-audit-hidden-map.json",
+        "artifacts/phase-0e/judge-calibration-manifest.json",
+        "artifacts/phase-0f/official-kimi-judge-results.jsonl"
+      ],
+      "source_phase": [
+        "PHASE_0E",
+        "PHASE_0F"
+      ],
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "exclusion_status": "EXCLUDED_FROM_DEVELOPMENT_MAIN_DEVELOPMENT_RESERVE_FROZEN_VALIDATION",
+      "exposure_reason": [
+        "JUDGE_CALIBRATION_ONLY",
+        "PHASE_0_EXPOSED_ONLY"
+      ],
+      "logical_sample_id": "persistbench_03173b98",
+      "source_artifacts": [
+        "artifacts/phase-0e/blind-reviewer-b-results.json",
+        "artifacts/phase-0e/human-audit-hidden-map.json",
+        "artifacts/phase-0e/judge-calibration-manifest.json",
+        "artifacts/phase-0f/official-kimi-judge-results.jsonl"
+      ],
+      "source_phase": [
+        "PHASE_0E",
+        "PHASE_0F"
+      ],
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "exclusion_status": "EXCLUDED_FROM_DEVELOPMENT_MAIN_DEVELOPMENT_RESERVE_FROZEN_VALIDATION",
+      "exposure_reason": [
+        "JUDGE_CALIBRATION_ONLY",
+        "PHASE_0D_SMOKE_OR_GATE",
+        "PHASE_0_EXPOSED_ONLY"
+      ],
+      "logical_sample_id": "persistbench_e666390d",
+      "source_artifacts": [
+        "artifacts/phase-0d-cli-smoke/logs/2026-08-15T11-59-53-00-00_persistbench-cross-domain_YifhDaSgFjVu2NV2xKDay7.eval",
+        "artifacts/phase-0e/blind-reviewer-b-results.json",
+        "artifacts/phase-0e/human-audit-hidden-map.json",
+        "artifacts/phase-0e/judge-calibration-manifest.json",
+        "artifacts/phase-0f/official-kimi-judge-results.jsonl"
+      ],
+      "source_phase": [
+        "PHASE_0D",
+        "PHASE_0E",
+        "PHASE_0F"
+      ],
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "exclusion_status": "EXCLUDED_FROM_DEVELOPMENT_MAIN_DEVELOPMENT_RESERVE_FROZEN_VALIDATION",
+      "exposure_reason": [
+        "JUDGE_CALIBRATION_ONLY",
+        "PHASE_0D_SMOKE_OR_GATE",
+        "PHASE_0_EXPOSED_ONLY"
+      ],
+      "logical_sample_id": "persistbench_f564d3ce",
+      "source_artifacts": [
+        "artifacts/phase-0d-cli-smoke/logs/2026-08-15T11-59-53-00-00_persistbench-cross-domain_YifhDaSgFjVu2NV2xKDay7.eval",
+        "artifacts/phase-0e/blind-reviewer-b-results.json",
+        "artifacts/phase-0e/human-audit-hidden-map.json",
+        "artifacts/phase-0e/judge-calibration-manifest.json",
+        "artifacts/phase-0f/official-kimi-judge-results.jsonl"
+      ],
+      "source_phase": [
+        "PHASE_0D",
+        "PHASE_0E",
+        "PHASE_0F"
+      ],
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "exclusion_status": "EXCLUDED_FROM_DEVELOPMENT_MAIN_DEVELOPMENT_RESERVE_FROZEN_VALIDATION",
+      "exposure_reason": [
+        "JUDGE_CALIBRATION_ONLY",
+        "PHASE_0D_SMOKE_OR_GATE",
+        "PHASE_0_EXPOSED_ONLY"
+      ],
+      "logical_sample_id": "persistbench_0bacb250",
+      "source_artifacts": [
+        "artifacts/phase-0d-cli-smoke/logs/2026-08-15T12-02-58-00-00_persistbench-sycophancy_H2UV9o4Bm4dnzg3q6Fkhv8.eval",
+        "artifacts/phase-0e/blind-reviewer-b-results.json",
+        "artifacts/phase-0e/human-audit-hidden-map.json",
+        "artifacts/phase-0e/judge-calibration-manifest.json",
+        "artifacts/phase-0f/official-kimi-judge-results.jsonl"
+      ],
+      "source_phase": [
+        "PHASE_0D",
+        "PHASE_0E",
+        "PHASE_0F"
+      ],
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "exclusion_status": "EXCLUDED_FROM_DEVELOPMENT_MAIN_DEVELOPMENT_RESERVE_FROZEN_VALIDATION",
+      "exposure_reason": [
+        "JUDGE_CALIBRATION_ONLY",
+        "PHASE_0_EXPOSED_ONLY"
+      ],
+      "logical_sample_id": "persistbench_56490c8c",
+      "source_artifacts": [
+        "artifacts/phase-0e/blind-reviewer-b-results.json",
+        "artifacts/phase-0e/human-audit-hidden-map.json",
+        "artifacts/phase-0e/judge-calibration-manifest.json",
+        "artifacts/phase-0f/official-kimi-judge-results.jsonl"
+      ],
+      "source_phase": [
+        "PHASE_0E",
+        "PHASE_0F"
+      ],
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "exclusion_status": "EXCLUDED_FROM_DEVELOPMENT_MAIN_DEVELOPMENT_RESERVE_FROZEN_VALIDATION",
+      "exposure_reason": [
+        "JUDGE_CALIBRATION_ONLY",
+        "PHASE_0D_SMOKE_OR_GATE",
+        "PHASE_0_EXPOSED_ONLY"
+      ],
+      "logical_sample_id": "persistbench_9e720aef",
+      "source_artifacts": [
+        "artifacts/phase-0d-cli-smoke/logs/2026-08-15T12-02-58-00-00_persistbench-sycophancy_H2UV9o4Bm4dnzg3q6Fkhv8.eval",
+        "artifacts/phase-0e/blind-reviewer-b-results.json",
+        "artifacts/phase-0e/judge-calibration-manifest.json",
+        "artifacts/phase-0f/official-kimi-judge-results.jsonl"
+      ],
+      "source_phase": [
+        "PHASE_0D",
+        "PHASE_0E",
+        "PHASE_0F"
+      ],
+      "task": "persistbench_sycophancy"
+    }
+  ],
+  "schema_version": "PREFERENCEGUARD_PHASE_1A_EXCLUSION_V1"
+}

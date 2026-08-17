@@ -1,0 +1,21 @@
+{
+  "recorded_for": "PHASE_1D_PRE_EXECUTION_CHECKPOINT",
+  "dependencies": [
+    {
+      "dependency_name": "MemSyco-Bench",
+      "local_path": "MemSyco-Bench",
+      "git_head_sha": "bdb670aaca99503caf9c9609a7f7ae2cd19b0049",
+      "repository_type": "NESTED_GIT_DEPENDENCY",
+      "vendored": false,
+      "submodule": false
+    },
+    {
+      "dependency_name": "inspect_evals",
+      "local_path": "inspect_evals",
+      "git_head_sha": "7ee087d4138ec1d869abc6a3beff30fb9b18f6b8",
+      "repository_type": "NESTED_GIT_DEPENDENCY",
+      "vendored": false,
+      "submodule": false
+    }
+  ]
+}

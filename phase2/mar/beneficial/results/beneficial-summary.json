@@ -1,0 +1,112 @@
+{
+  "phase": "PHASE_2_MAR_BENEFICIAL_MEMORY_GUARDRAIL",
+  "status": "PHASE_2_MAR_BENEFICIAL_GUARDRAIL_PASS_ROBUST_TO_UNSCORED_SLOTS",
+  "beneficial_memory_preserved": true,
+  "result": {
+    "pass": 18,
+    "fail": 1,
+    "officially_scored": 19,
+    "unscored": 1,
+    "robust_lower_bound": {
+      "pass": 18,
+      "rate": 0.9
+    },
+    "robust_upper_bound": {
+      "pass": 19,
+      "rate": 0.95
+    }
+  },
+  "preservation": {
+    "v2_comparable_pass": 18,
+    "preserved_pass": 17,
+    "regressions": 1,
+    "rate": 0.9444444444444444,
+    "paired_transitions": {
+      "PASS_TO_PASS": 17,
+      "PASS_TO_FAIL": 1,
+      "FAIL_TO_PASS": 0,
+      "FAIL_TO_FAIL": 0
+    },
+    "v2_context": {
+      "official_pass": 19,
+      "official_scored": 19,
+      "frozen_universe": 20,
+      "permanent_missing": 1
+    }
+  },
+  "router_behavior": {
+    "decisions": {
+      "ALLOW": 97,
+      "CONTEXT_ONLY": 7,
+      "BLOCK": 115
+    },
+    "distribution_percent": {
+      "ALLOW": 44.29223744292237,
+      "CONTEXT_ONLY": 3.1963470319634704,
+      "BLOCK": 52.51141552511416
+    },
+    "zero_allow_queries": 1,
+    "malformed": 0,
+    "degraded_fallback": 0,
+    "missing_ids": 0,
+    "duplicate_ids": 0,
+    "hallucinated_ids": 0,
+    "reason_codes": {
+      "IRRELEVANT": 115,
+      "RELEVANT_USER_CONSTRAINT": 16,
+      "SAFETY_RELEVANT_PERSONAL_FACT": 4,
+      "RELEVANT_PERSONAL_FACT": 60,
+      "RELEVANT_USER_PREFERENCE": 23,
+      "OPINION_NOT_AUTHORITY": 1
+    }
+  },
+  "efficiency": {
+    "router_latency_seconds": {
+      "median": 17.2777763999984,
+      "mean": 19.34080990500006,
+      "p95": 35.685318600000755
+    },
+    "generator_latency_seconds": {
+      "median": 19.296667600003275,
+      "mean": 21.77692575999972,
+      "p95": 38.94931660000293
+    },
+    "judge_latency_seconds": {
+      "median": 4.774461299995892,
+      "mean": 5.438099778947761,
+      "p95": 8.748303100001067
+    },
+    "router_tokens": {
+      "input_tokens": 9423,
+      "output_tokens": 44664,
+      "reasoning_tokens": 38780,
+      "total_tokens": 61767
+    },
+    "generator_tokens": {
+      "input_tokens": 4769,
+      "output_tokens": 36160,
+      "reasoning_tokens": 23486,
+      "total_tokens": 135649
+    },
+    "judge_tokens": "UNAVAILABLE__OFFICIAL_SCORER_DOES_NOT_EXPOSE_USAGE",
+    "cost": "UNAVAILABLE__PROVIDER_DID_NOT_EXPOSE_COST"
+  },
+  "scoring_infrastructure": {
+    "judge_http_attempts": 20,
+    "http_429": 1,
+    "infrastructure_resubmissions": 1,
+    "successful_completions": 19
+  },
+  "integrity": {
+    "router_semantic_retries": 0,
+    "generator_semantic_retries": 0,
+    "judge_semantic_retries": 0,
+    "sdk_max_retries": 0,
+    "reserve_reads": 0,
+    "frozen_validation_reads": 0,
+    "cross_domain_calls": 0,
+    "additional_sycophancy_calls": 0,
+    "protocol_sha256": "aebc178e8110ac45d3f7377d895a08d5157aefddf1892353e7253a2a43c516bd"
+  },
+  "failure": null
+}

@@ -1,0 +1,19 @@
+{
+  "phase": "PHASE_2_MAR_CONTRACT_FREEZE",
+  "status": "MAR_CONTRACT_FROZEN",
+  "contract": {
+    "path": "phase2/mar/MAR_CONTRACT.md",
+    "sha256": "a562f1ab6b2d5d00645c63d809508e81fe39a8be39769e22adb626caf1975b50"
+  },
+  "config": {
+    "path": "phase2/mar/mar-config.json",
+    "sha256": "a87c076afeb2f6f515e258c5200ec25354a487aac73d977ecc2d7f316ca5b242"
+  },
+  "authorized_official_mar_development_runs": 1,
+  "semantic_retries_authorized": 0,
+  "access": {
+    "development_main": true,
+    "development_reserve": false,
+    "frozen_validation": false
+  }
+}

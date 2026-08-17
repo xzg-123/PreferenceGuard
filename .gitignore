@@ -1,0 +1,138 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Python and editor/runtime state
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Model/evaluation runtime state
+*.eval
+*.log
+*.log.gz
+*.tmp
+*.bak
+*.sqlite
+*.db
+runtime/
+runtime-localappdata/
+localappdata-*/
+logs/
+traces/
+cache/
+output_data/
+
+# Upstream repositories and their datasets are dependencies, not project source.
+# They are installed or cloned separately at the pinned revisions documented in
+# THIRD_PARTY_NOTICES.md; no upstream code or data is redistributed here.
+/MemSyco-Bench/
+/inspect_evals/
+
+# Exclude all raw experimental material by default. The selected manifests,
+# summaries and reports below are aggregate evidence only (no benchmark rows,
+# prompts, model completions, or judge transcripts).
+/artifacts/*
+!/artifacts/dependencies/
+!/artifacts/dependencies/frozen-dependency-provenance.json
+!/artifacts/phase-1a/
+!/artifacts/phase-1a/**
+!/artifacts/phase-1b/
+!/artifacts/phase-1b/PHASE_1B1_COMPLETE_BASELINE_REPORT.md
+!/artifacts/phase-1b/SCORER_EQUIVALENCE_REPORT.md
+!/artifacts/phase-1b/phase-1b-complete-summary.json
+!/artifacts/phase-1b/phase-1b1-execution-summary.json
+!/artifacts/phase-1c/
+!/artifacts/phase-1c/**
+!/artifacts/phase-1d/
+!/artifacts/phase-1d/PHASE_1D_DEVELOPMENT_TREATMENT_REPORT.md
+!/artifacts/phase-1d/phase-1d-treatment-summary.json
+!/artifacts/phase-1d/phase-1d-treatment-config.json
+!/artifacts/phase-1d/phase-1d-integrity-report.json
+!/artifacts/phase-1d/phase-1d-execution-integrity.json
+!/artifacts/phase-1d2/
+!/artifacts/phase-1d2/**
+!/artifacts/phase-1e/
+!/artifacts/phase-1e/PHASE_1E_FINAL_DEVELOPMENT_V2_REPORT.md
+!/artifacts/phase-1e/phase-1e-preflight.json
+!/artifacts/phase-1e/phase-1e-v2-integrity-report.json
+!/artifacts/phase-1e/phase-1e-v2-treatment-config.json
+!/artifacts/phase-1e/beneficial/
+!/artifacts/phase-1e/beneficial/b2/
+!/artifacts/phase-1e/beneficial/b2/PHASE_1E_B2_BENEFICIAL_GUARDRAIL_REPORT.md
+!/artifacts/phase-1e/beneficial/b2/phase-1e-b2-beneficial-metric.json
+!/artifacts/phase-1e/beneficial/b2/phase-1e-b2-integrity-acceptance.json
+!/artifacts/phase-1e/recovery/
+!/artifacts/phase-1e/recovery/r4l/
+!/artifacts/phase-1e/recovery/r4l/PHASE_1E_R4L_CROSS_DOMAIN_ACCEPTANCE.md
+!/artifacts/phase-1e/recovery/r4l/phase-1e-r4l-cross-domain-metric.json
+!/artifacts/phase-1e/recovery/r4l/phase-1e-r4l-cross-domain-integrity-acceptance.json
+!/artifacts/phase-1e/sycophancy/
+!/artifacts/phase-1e/sycophancy/s2/
+!/artifacts/phase-1e/sycophancy/s2/PHASE_1E_S2_PRIMARY_METRIC_REPORT.md
+!/artifacts/phase-1e/sycophancy/s2/phase-1e-s2-primary-metric.json
+!/artifacts/phase-1e/sycophancy/s2/phase-1e-s2-integrity-acceptance.json
+!/artifacts/phase-1e/sycophancy/s2/phase-1e-s2-logical-stability.json
+
+# Phase 0 and the remaining Phase 1B/1D material are local audit, raw-input,
+# recovery, or record-level evidence rather than portfolio artifacts.
+/PHASE_0*.md
+/artifacts/phase-0*/
+/artifacts/phase-1b/**
+!/artifacts/phase-1b/PHASE_1B1_COMPLETE_BASELINE_REPORT.md
+!/artifacts/phase-1b/SCORER_EQUIVALENCE_REPORT.md
+!/artifacts/phase-1b/phase-1b-complete-summary.json
+!/artifacts/phase-1b/phase-1b1-execution-summary.json
+/artifacts/phase-1d/**
+!/artifacts/phase-1d/PHASE_1D_DEVELOPMENT_TREATMENT_REPORT.md
+!/artifacts/phase-1d/phase-1d-treatment-summary.json
+!/artifacts/phase-1d/phase-1d-treatment-config.json
+!/artifacts/phase-1d/phase-1d-integrity-report.json
+!/artifacts/phase-1d/phase-1d-execution-integrity.json
+
+# Re-apply the Phase 1E deny-by-default rule after opening parent directories
+# above; only the explicit aggregate evidence is public.
+/artifacts/phase-1e/**
+!/artifacts/phase-1e/PHASE_1E_FINAL_DEVELOPMENT_V2_REPORT.md
+!/artifacts/phase-1e/phase-1e-preflight.json
+!/artifacts/phase-1e/phase-1e-v2-integrity-report.json
+!/artifacts/phase-1e/phase-1e-v2-treatment-config.json
+!/artifacts/phase-1e/beneficial/
+!/artifacts/phase-1e/beneficial/b2/
+!/artifacts/phase-1e/beneficial/b2/PHASE_1E_B2_BENEFICIAL_GUARDRAIL_REPORT.md
+!/artifacts/phase-1e/beneficial/b2/phase-1e-b2-beneficial-metric.json
+!/artifacts/phase-1e/beneficial/b2/phase-1e-b2-integrity-acceptance.json
+!/artifacts/phase-1e/recovery/
+!/artifacts/phase-1e/recovery/r4l/
+!/artifacts/phase-1e/recovery/r4l/PHASE_1E_R4L_CROSS_DOMAIN_ACCEPTANCE.md
+!/artifacts/phase-1e/recovery/r4l/phase-1e-r4l-cross-domain-metric.json
+!/artifacts/phase-1e/recovery/r4l/phase-1e-r4l-cross-domain-integrity-acceptance.json
+!/artifacts/phase-1e/sycophancy/
+!/artifacts/phase-1e/sycophancy/s2/
+!/artifacts/phase-1e/sycophancy/s2/PHASE_1E_S2_PRIMARY_METRIC_REPORT.md
+!/artifacts/phase-1e/sycophancy/s2/phase-1e-s2-primary-metric.json
+!/artifacts/phase-1e/sycophancy/s2/phase-1e-s2-integrity-acceptance.json
+!/artifacts/phase-1e/sycophancy/s2/phase-1e-s2-logical-stability.json
+
+# Raw Phase 2 outputs contain upstream benchmark inputs/memories, model
+# completions, and judge records. Publish only immutable aggregate summaries.
+/phase2/mar/**/results/*.jsonl
+/phase2/mar/**/results/attempts/
+/phase2/mar/results/
+/phase2/mar/recovery/
+/phase2/mar/primary_completion/

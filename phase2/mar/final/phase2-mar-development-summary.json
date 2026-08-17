@@ -1,0 +1,69 @@
+{
+  "phase": "PHASE_2_MAR_DEVELOPMENT_FINAL_REVIEW",
+  "status": "PHASE_2_MAR_DEVELOPMENT_FINAL_REVIEW_PASS",
+  "review_mode": "OFFLINE_FROZEN_ARTIFACT_SUMMARY",
+  "api_calls_during_review": 0,
+  "architecture_evolution": [
+    "BASELINE",
+    "V1_MEMORY_AUTHORITY_RULE",
+    "V2_MEMORY_AUTHORITY_PROCEDURE",
+    "MAR_QUERY_TIME_MEMORY_AUTHORITY_ROUTER_PLUS_HARD_GATING"
+  ],
+  "sycophancy": {
+    "baseline": {"pass": 11, "universe": 60, "rate": 0.18333333333333332},
+    "v1": {"pass": 16, "universe": 60, "rate": 0.26666666666666666},
+    "v2": {"pass": 26, "universe": 60, "rate": 0.43333333333333335},
+    "mar_robust_bound": {"lower_pass": 36, "upper_pass": 40, "universe": 60, "lower_rate": 0.6, "upper_rate": 0.6666666666666666},
+    "mar_lower_vs_v2": {"pass_delta": 10, "percentage_point_delta": 16.666666666666664},
+    "mar_lower_vs_baseline": {"pass_delta": 25, "percentage_point_delta": 41.66666666666667},
+    "gate_status": "PASS_ROBUST_TO_UNSCORED_SLOTS"
+  },
+  "beneficial_memory": {
+    "mar_robust_bound": {"lower_pass": 18, "upper_pass": 19, "universe": 20, "lower_rate": 0.9, "upper_rate": 0.95},
+    "preserved_v2_passes": 17,
+    "v2_comparable_passes": 18,
+    "preservation_rate": 0.9444444444444444,
+    "status": "BENEFICIAL_MEMORY_PRESERVED"
+  },
+  "cross_domain": {
+    "mar_robust_bound": {"lower_pass": 52, "upper_pass": 56, "universe": 60, "lower_rate": 0.8666666666666667, "upper_rate": 0.9333333333333333},
+    "paired_v2_to_mar": {"comparable_count": 55, "pass_to_pass": 49, "pass_to_fail": 3, "fail_to_pass": 2, "fail_to_fail": 1, "recoveries": 2, "regressions": 3, "net_gain": -1},
+    "conclusion": "PRESERVED_WITHIN_FROZEN_PRODUCT_GUARDRAIL_NOT_IMPROVED"
+  },
+  "router_behavior_by_universe": {
+    "sycophancy_stage_a_60_outputs": {"decision_denominator": 630, "allow": 91, "context_only": 160, "block": 379, "malformed": 0, "fallback": 0},
+    "beneficial_stage_a_20_outputs": {"decision_denominator": 219, "allow": 97, "context_only": 7, "block": 115, "malformed": 0, "fallback": 0, "zero_allow_queries": 1},
+    "cross_domain_stage_a_60_outputs": {"decision_denominator": 639, "allow": 74, "context_only": 110, "block": 455, "malformed": 0, "fallback": 0, "zero_allow_queries": 28}
+  },
+  "execution_reliability": {
+    "execution_design": "DECOUPLED_IMMUTABLE_GENERATION_THEN_SCORING_ONLY",
+    "judge_sdk_max_retries": 0,
+    "semantic_retries": 0,
+    "judge_json_repair": 0,
+    "guardrail_judge_http_attempts": 91,
+    "guardrail_http_429": 7,
+    "guardrail_infrastructure_resubmissions": 7
+  },
+  "integrity": {
+    "reserve_reads": 0,
+    "frozen_validation_reads": 0,
+    "unseen_validation_performed": false,
+    "new_benchmark_slots_during_review": 0,
+    "treatment_semantic_modifications_during_review": 0
+  },
+  "limitations": [
+    "EARLY_STOP_UNSCORED_SLOTS_WERE_NOT_BACKFILLED",
+    "JUDGE_USAGE_AND_PROVIDER_COST_UNAVAILABLE_WHERE_NOT_EXPOSED",
+    "V2_OPERATIONAL_MULTIPLIERS_COMPARATOR_UNAVAILABLE",
+    "UNSEEN_VALIDATION_NOT_PERFORMED",
+    "NOT_A_PRODUCTION_READINESS_OR_SOTA_CLAIM"
+  ],
+  "source_artifacts": [
+    "artifacts/phase-1b/PHASE_1B1_COMPLETE_BASELINE_REPORT.md",
+    "artifacts/phase-1d/phase-1d-treatment-summary.json",
+    "artifacts/phase-1e/sycophancy/s2/phase-1e-s2-primary-metric.json",
+    "phase2/mar/decoupling/results/decoupling-summary.json",
+    "phase2/mar/beneficial/results/beneficial-summary.json",
+    "phase2/mar/cross_domain/results/cross-domain-summary.json"
+  ]
+}

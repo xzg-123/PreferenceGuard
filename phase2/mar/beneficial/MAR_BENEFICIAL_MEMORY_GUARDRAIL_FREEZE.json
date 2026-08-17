@@ -1,0 +1,17 @@
+{
+  "phase": "PHASE_2_MAR_BENEFICIAL_MEMORY_GUARDRAIL_FREEZE",
+  "status": "MAR_BENEFICIAL_MEMORY_GUARDRAIL_PROTOCOL_FROZEN",
+  "protocol": {"path": "phase2/mar/beneficial/MAR_BENEFICIAL_MEMORY_GUARDRAIL_PROTOCOL.md", "sha256": "aebc178e8110ac45d3f7377d895a08d5157aefddf1892353e7253a2a43c516bd"},
+  "config": {"path": "phase2/mar/beneficial/beneficial-guardrail-config.json", "sha256": "996784ac06e2a64d54996bd7e31a8641758e31232b13a210ebd7c0b21cad0240"},
+  "frozen_inputs": {
+    "beneficial_development": {"path": "artifacts/phase-1e/input/development-main-beneficial-memory.jsonl", "sha256": "6b6ad43a486cc5fbf4df70b1b5edb5aea27000ed0694263b4b5e1863825f8dbd"},
+    "v2_config": {"path": "artifacts/phase-1e/phase-1e-v2-treatment-config.json", "sha256": "1db95d2cf5984472de748f8067125a4ccbd0ebcdf3ecd5fd6cc89862db3ce2bd"},
+    "v2_b1_records": {"path": "artifacts/phase-1e/beneficial/phase-1e-b1-completed-records.jsonl", "sha256": "ad6293bc132481ad738103061d9b4d06cf4da872e49432153f61d5de4e36aa72"},
+    "v2_b1g_records": {"path": "artifacts/phase-1e/beneficial/b1g/phase-1e-b1g-completed-records.jsonl", "sha256": "ccb4d2a6895fd5ce57729e971c9308f9fbdf21157d9f69548aadd4b19ebbf952"},
+    "v2_b1f_record": {"path": "artifacts/phase-1e/beneficial/b1f/records/persistbench_ab0108b8_epoch_1.recovered.json", "sha256": "8d2badcf508da3d6fc53304e94d3d99850ac501c0c90c201995a3197d3e9a9f2"}
+  },
+  "frozen_universe": 20,
+  "sdk_max_retries": 0,
+  "infrastructure_attempts_per_slot_max": 3,
+  "fallback_backoff_seconds": 120
+}

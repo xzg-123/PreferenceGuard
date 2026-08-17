@@ -1,0 +1,103 @@
+{
+  "ambiguities": [],
+  "checks": {
+    "dataset_hashes_exact": true,
+    "deterministic_rerun_identical": true,
+    "development_main_x_reserve_overlap": 0,
+    "development_main_x_validation_overlap": 0,
+    "exclusion_x_development_main_overlap": 0,
+    "exclusion_x_development_reserve_overlap": 0,
+    "exclusion_x_frozen_validation_overlap": 0,
+    "reserve_x_validation_overlap": 0,
+    "split_logical_sample_duplicate_count": 0,
+    "task_count_exact": true
+  },
+  "eligible_count_by_task": {
+    "persistbench_beneficial_memory": 94,
+    "persistbench_cross_domain": 197,
+    "persistbench_sycophancy": 197
+  },
+  "exclusion_count_by_task": {
+    "persistbench_beneficial_memory": 6,
+    "persistbench_cross_domain": 3,
+    "persistbench_sycophancy": 3
+  },
+  "generator_budget": {
+    "expected_total_tokens": 1020443.2000000001,
+    "generator_only_historical": {
+      "by_task": {
+        "persistbench_beneficial_memory": {
+          "epoch_records": 7,
+          "total_tokens": 40477
+        },
+        "persistbench_cross_domain": {
+          "epoch_records": 9,
+          "total_tokens": 65073
+        },
+        "persistbench_sycophancy": {
+          "epoch_records": 9,
+          "total_tokens": 76672
+        }
+      },
+      "epoch_records": 25,
+      "model": "deepseek/deepseek-v4-flash",
+      "source_artifacts": [
+        "artifacts/phase-0d-cli-smoke/logs/2026-08-15T11-57-33-00-00_persistbench-beneficial-memory_9x4bgp6k4pgiQ7gF9u9nUT.eval",
+        "artifacts/phase-0d-cli-smoke/logs/2026-08-15T11-59-53-00-00_persistbench-cross-domain_YifhDaSgFjVu2NV2xKDay7.eval",
+        "artifacts/phase-0d-cli-smoke/logs/2026-08-15T12-02-58-00-00_persistbench-sycophancy_H2UV9o4Bm4dnzg3q6Fkhv8.eval",
+        "artifacts/phase-0d-cli-smoke/logs/2026-08-15T12-06-07-00-00_persistbench-beneficial-memory_59f3cS2CPqTUavvPk36SaF.eval",
+        "artifacts/phase-0e/logs/2026-08-15T12-20-08-00-00_persistbench-cross-domain_BBkjvsAQBG3namv7dk5zJJ.eval",
+        "artifacts/phase-0e/logs/2026-08-15T12-22-20-00-00_persistbench-sycophancy_du9Tk2iThFP3q9WtRoGzyW.eval",
+        "artifacts/phase-0e/logs/2026-08-15T12-24-34-00-00_persistbench-beneficial-memory_cJqzxWiZDxPi4FKXQp6r6q.eval"
+      ],
+      "total_tokens": 182222,
+      "total_tokens_per_epoch": 7288.88
+    },
+    "hard_alert_minimum_tokens": 1530664.8,
+    "hard_alert_tokens_with_rounding_buffer": 1600000,
+    "status": "NUMERICALLY_FROZEN_FROM_PHASE_0"
+  },
+  "kimi_budget": {
+    "empirical_aggregate_latency_seconds_per_call": 11.884749999999999,
+    "empirical_source": "Phase 0F official Kimi 24-call rescore",
+    "empirical_total_tokens_per_call": 9611.208333333334,
+    "expected_aggregate_latency_seconds": 1663.8649999999998,
+    "expected_total_tokens": 1345569.1666666667,
+    "hard_alert_minimum_tokens": 2018353.75,
+    "hard_alert_tokens_with_rounding_buffer": 2100000
+  },
+  "manifest_sha256": {
+    "development-main-manifest.json": "4cf553e2da80e4226d83d85dd8274920cb19d12403ff7d03f2029c9cf379abf8",
+    "development-reserve-manifest.json": "4560df24d894d9b98f131d280c96a28a79a80d08c261ede84e119cc10043214c",
+    "frozen-validation-manifest.json": "d65ad6c336165d87106ad93bccf69e7383757bc49bfba0e7a89f653c7ac4d17a",
+    "phase-0-exclusion-manifest.json": "36db78a41aa502d47d4885ec8f74543d60636a0274bdbdd3092cc58908c85e10"
+  },
+  "official_epochs_per_logical_sample": {
+    "persistbench_beneficial_memory": 1,
+    "persistbench_cross_domain": 3,
+    "persistbench_sycophancy": 3
+  },
+  "phase_1b_development_main_projection": {
+    "epoch_records": {
+      "persistbench_beneficial_memory": 20,
+      "persistbench_cross_domain": 60,
+      "persistbench_sycophancy": 60
+    },
+    "logical_samples": 60,
+    "planned_deepseek_generation_calls": 140,
+    "planned_kimi_judge_calls": 140,
+    "total_epoch_records": 140
+  },
+  "schema_version": "PREFERENCEGUARD_PHASE_1A_INTEGRITY_V1",
+  "source_dataset_hashes": {
+    "persistbench_beneficial_memory": "26a951bee5da72049616674ffacfc9c725cd65f88355bee579831e4f51a044d3",
+    "persistbench_cross_domain": "883fbf9e5733cfb2f577e8cd18ffe9a7ec4ea96f0195449fabe8b3fa2b6687b4",
+    "persistbench_sycophancy": "634f5a533b4a3a7af55052b2c4bd55b4d30634e862ea4a48fb8e4dbbab412858"
+  },
+  "status": "PASS",
+  "untouched_pool": {
+    "persistbench_beneficial_memory": 44,
+    "persistbench_cross_domain": 147,
+    "persistbench_sycophancy": 147
+  }
+}

@@ -1,0 +1,6 @@
+# Phase 1E-S2 Primary Metric
+
+Status: `PHASE_1E_S2_PASS / SYCOPHANCY_V2_EXECUTION_INTEGRITY_ACCEPTED / SYCOPHANCY_PRIMARY_GATE_FAIL / PRIMARY_EFFECTIVENESS_NOT_MET`
+
+- V2: `26/60`; gate: `SYCOPHANCY_PRIMARY_GATE_FAIL`.
+- No provider calls or Beneficial execution occurred.

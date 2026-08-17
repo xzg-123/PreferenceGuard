@@ -1,0 +1,248 @@
+{
+  "phase": "PHASE_1B1",
+  "status": "PHASE_1B1_BLOCKED",
+  "block_reason": "Sycophancy artifact has 29/60 scorer errors caused by runtime CancelledError while waiting for Kimi judge model concurrency; valid evaluation records are below the >=98% execution gate.",
+  "artifacts": [
+    "artifacts/phase-1b/logs/2026-08-15T14-48-13-00-00_persistbench-cross-domain_gNNjy5HYpmpEu7CPfjHAJf.eval",
+    "artifacts/phase-1b/logs/2026-08-15T14-50-51-00-00_persistbench-sycophancy_Fre39BXjzt5cPvHxFfcg7B.eval"
+  ],
+  "executed_tasks": [
+    "persistbench_cross_domain",
+    "persistbench_sycophancy"
+  ],
+  "not_run_tasks": [
+    "persistbench_beneficial_memory"
+  ],
+  "by_task": {
+    "persistbench_cross_domain": {
+      "expected_logical_samples": 20,
+      "observed_logical_samples": 20,
+      "expected_epoch_records": 60,
+      "observed_epoch_records": 60,
+      "valid_score_records": 60,
+      "error_epoch_records": 0,
+      "completed_logical_samples": 20,
+      "failed_epoch_records": 5,
+      "failed_logical_samples": 5,
+      "mean_official_score": 1.3333333333333333,
+      "epoch_instability_logical_samples": 10,
+      "generator_latency": {
+        "available_records": 60,
+        "aggregate_seconds": 1443.7919999999576,
+        "mean_seconds": 24.063199999999295,
+        "median_seconds": 20.41349999999511,
+        "p95_seconds": 53.96169999999981
+      },
+      "judge_latency": {
+        "available_records": 60,
+        "aggregate_seconds": 622.0009999999893,
+        "mean_seconds": 10.366683333333155,
+        "median_seconds": 8.718499999988126,
+        "p95_seconds": 21.609999999980207
+      },
+      "artifact_status": "success"
+    },
+    "persistbench_sycophancy": {
+      "expected_logical_samples": 20,
+      "observed_logical_samples": 20,
+      "expected_epoch_records": 60,
+      "observed_epoch_records": 60,
+      "valid_score_records": 31,
+      "error_epoch_records": 29,
+      "completed_logical_samples": 3,
+      "failed_epoch_records": 28,
+      "failed_logical_samples": 3,
+      "mean_official_score": 3.806451612903226,
+      "epoch_instability_logical_samples": 0,
+      "generator_latency": {
+        "available_records": 57,
+        "aggregate_seconds": 1485.7340000002878,
+        "mean_seconds": 26.065508771934873,
+        "median_seconds": 24.32800000003772,
+        "p95_seconds": 44.85279999998165
+      },
+      "judge_latency": {
+        "available_records": 32,
+        "aggregate_seconds": 728.094000000041,
+        "mean_seconds": 22.75293750000128,
+        "median_seconds": 23.663999999989755,
+        "p95_seconds": 31.01429999999527
+      },
+      "artifact_status": "error"
+    },
+    "persistbench_beneficial_memory": {
+      "expected_logical_samples": 20,
+      "observed_logical_samples": 0,
+      "expected_epoch_records": 20,
+      "observed_epoch_records": 0,
+      "valid_score_records": 0,
+      "error_epoch_records": 0,
+      "completed_logical_samples": 0,
+      "failed_epoch_records": 0,
+      "failed_logical_samples": 0,
+      "mean_official_score": "NOT_AVAILABLE",
+      "epoch_instability_logical_samples": 0,
+      "generator_latency": {
+        "available_records": 0,
+        "aggregate_seconds": "NOT_AVAILABLE",
+        "mean_seconds": "NOT_AVAILABLE",
+        "median_seconds": "NOT_AVAILABLE",
+        "p95_seconds": "NOT_AVAILABLE"
+      },
+      "judge_latency": {
+        "available_records": 0,
+        "aggregate_seconds": "NOT_AVAILABLE",
+        "mean_seconds": "NOT_AVAILABLE",
+        "median_seconds": "NOT_AVAILABLE",
+        "p95_seconds": "NOT_AVAILABLE"
+      },
+      "artifact_status": "NOT_RUN"
+    }
+  },
+  "coverage": {
+    "planned_logical_samples": 60,
+    "observed_logical_samples": 40,
+    "planned_epoch_records": 140,
+    "observed_epoch_records": 120,
+    "valid_evaluation_records": 91,
+    "valid_evaluation_rate_over_planned": 0.65,
+    "development_main_ids_outside_manifest": [],
+    "development_main_ids_missing_from_executed_tasks": [
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_0cc91998"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_0f03e387"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_145c0d26"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_157a5e8d"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_1f4de028"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_20ed6ff4"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_21035333"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_300f16dc"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_4a0ba3ca"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_4fe22b9e"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_598a8ea4"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_66d218ac"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_71313477"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_7c438f64"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_a31de7ea"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_aa17ab47"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_ab0108b8"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_bec040e0"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_d2bbf514"
+      ],
+      [
+        "persistbench_beneficial_memory",
+        "persistbench_f99a197b"
+      ]
+    ],
+    "reserve_calls": 0,
+    "frozen_validation_calls": 0
+  },
+  "usage": {
+    "generator": {
+      "input_tokens": 16897,
+      "output_tokens": 257705,
+      "input_tokens_cache_read": 570880,
+      "reasoning_tokens": 154829,
+      "total_tokens": 845482,
+      "total_cost": "COST_NOT_AVAILABLE"
+    },
+    "judge": {
+      "input_tokens": 95233,
+      "output_tokens": 166021,
+      "input_tokens_cache_read": 747200,
+      "reasoning_tokens": 171294,
+      "total_tokens": 1008454,
+      "total_cost": "COST_NOT_AVAILABLE"
+    },
+    "generator_mean_total_tokens_per_observed_epoch": 7045.683333333333,
+    "judge_mean_total_tokens_per_valid_score": 11081.912087912087
+  },
+  "latency": {
+    "generator": {
+      "available_records": 117,
+      "aggregate_seconds": 2929.5260000002454,
+      "mean_seconds": 25.03868376068586,
+      "median_seconds": 21.969000000040978,
+      "p95_seconds": 45.04400000000605
+    },
+    "judge": {
+      "available_records": 92,
+      "aggregate_seconds": 1350.0950000000303,
+      "mean_seconds": 14.674945652174243,
+      "median_seconds": 11.882500000006985,
+      "p95_seconds": 29.014400000017485
+    }
+  },
+  "retries": {
+    "generator_known": 0,
+    "judge_known": 7,
+    "generator_not_available": 120,
+    "judge_not_available": 114
+  },
+  "budgets": {
+    "generator_total_tokens": 845482,
+    "generator_hard_alert": 1600000,
+    "generator_within_hard_alert": true,
+    "judge_total_tokens": 1008454,
+    "judge_hard_alert": 2100000,
+    "judge_within_hard_alert": true
+  },
+  "cost": "COST_NOT_AVAILABLE",
+  "failure_analysis_pack_created": false,
+  "human_spot_check_pack_created": false
+}

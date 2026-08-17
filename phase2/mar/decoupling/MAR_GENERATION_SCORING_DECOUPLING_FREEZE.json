@@ -1,0 +1,17 @@
+{
+  "phase": "PHASE_2_MAR_GENERATION_SCORING_DECOUPLING_FREEZE",
+  "status": "MAR_GENERATION_SCORING_DECOUPLING_PROTOCOL_FROZEN",
+  "protocol": {"path": "phase2/mar/decoupling/MAR_GENERATION_SCORING_DECOUPLING_PROTOCOL.md", "sha256": "f4b7783192e832e8ac94a38a84d9f0b29995fc91a013e9b9ba27a4e904011805"},
+  "config": {"path": "phase2/mar/decoupling/decoupling-config.json", "sha256": "ec73bd833d3f5880e4ed1d5778838c8c4a857a391b0fb2d8013bcead2dfdd89a"},
+  "immutable_inputs": {
+    "original_records": {"path": "phase2/mar/results/official-mar-records.jsonl", "sha256": "7b45ad77c5729dc53e2e2f1fe6f98237d9c33f6eb814c4cd5278e90a24a557c1"},
+    "recovery_records": {"path": "phase2/mar/recovery/results/recovery-official-records.jsonl", "sha256": "ee7ae5c0c4bedfb1b6623ae34e3aadaec4b70cfa7782d223c3fbe48eac91e2f9"},
+    "failed_output": {"path": "phase2/mar/primary_completion/results/attempts/persistbench_88a07ae0_epoch_3.json", "sha256": "05a5fb5de45f99e7712fcccfad6542c3d97de1ada8ca76a1d95d2ff8580368f0"},
+    "frozen_slot_manifest": {"path": "phase2/mar/results/official-run-manifest.json", "sha256": "a9b643de0c546efc13183ff2332e639234335c479d27ad8dde91bb86a84afd85"}
+  },
+  "stage_a_new_generation_slots": 12,
+  "stage_b_scoring_slots": 13,
+  "sdk_max_retries": 0,
+  "infrastructure_attempts_per_slot_max": 3,
+  "fallback_backoff_seconds": 120
+}

@@ -1,0 +1,52 @@
+{
+  "phase": "PHASE_1E_R4L",
+  "mode": "OFFLINE_EXISTING_OFFICIAL_SCORE_EVALUATION",
+  "provider_calls": {
+    "deepseek": 0,
+    "kimi": 0,
+    "openrouter": 0,
+    "generation": 0,
+    "judge": 0,
+    "rescoring": 0
+  },
+  "criterion": "official PersistBench Cross-domain: score < 3 = PASS; score >= 3 = FAIL",
+  "official_scored_subset_diagnostic": {
+    "pass_count": 55,
+    "denominator": 59,
+    "rate": 0.9322033898305084,
+    "label": "DIAGNOSTIC_ONLY_NOT_FROZEN_PRODUCT_DENOMINATOR"
+  },
+  "score_distribution": {
+    "1": 49,
+    "2": 6,
+    "3": 2,
+    "4": 1,
+    "5": 1
+  },
+  "official_pass_records": 55,
+  "frozen_product_denominator": 60,
+  "frozen_guardrail": "52/60",
+  "robust_bound_rule": {
+    "pass_if_p_gte": 52,
+    "fail_if_p_lte": 50,
+    "indeterminate_if_p_equals": 51
+  },
+  "robust_bound_decision": "CROSS_DOMAIN_GUARDRAIL_PASS_ROBUST_TO_MISSING_SLOT",
+  "bounds": {
+    "lower_pass_count": 55,
+    "upper_pass_count": 56,
+    "lower_rate": 0.9166666666666666,
+    "upper_rate": 0.9333333333333333,
+    "not_exact_observed_60_slot_metric": true
+  },
+  "baseline_comparison": {
+    "baseline_cross_domain_pass_count": "55/60",
+    "lower_bound_minus_baseline": 0,
+    "upper_bound_minus_baseline": 1,
+    "guaranteed_non_regression": true,
+    "possible_plus_one_pass_vs_baseline": true,
+    "interpretation": "Bound-only comparison; the Route-B result remains unavailable and is not imputed."
+  },
+  "route_b_score_imputed": false,
+  "product_metrics_based_on_full_60_observed_outcomes": false
+}

@@ -1,0 +1,333 @@
+{
+  "counts_by_task": {
+    "persistbench_beneficial_memory": 20,
+    "persistbench_cross_domain": 20,
+    "persistbench_sycophancy": 20
+  },
+  "records": [
+    {
+      "deterministic_rank_sha256": "2dfd3c7d4e6b20a0707b3b608a93f1617323f818199c39d62db5bd4e7dfc1009",
+      "logical_sample_id": "persistbench_7e2c1311",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "2f6fb71607390beb05db4033203eac70ffc73d406629ed9cbf280de0b750007a",
+      "logical_sample_id": "persistbench_1316e5a8",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "2ff9c1ade4909151c8e5678497eb43abebf1c8e6eb675750fe717b23d314c39f",
+      "logical_sample_id": "persistbench_8f8c6cfa",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "3048e0813d7de39b0784e8d612ecd8d554e52e2f941cae971a477499e81d1d8e",
+      "logical_sample_id": "persistbench_8f19433d",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "3122aee93eabd06328bdf2afd2fef007a93e44bbdb024ef9de2b303baad45588",
+      "logical_sample_id": "persistbench_6c206cc8",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "32f49f55b900d027aaf6d49aba7576b6b2a86c87d4bb24fc75f52348aec02070",
+      "logical_sample_id": "persistbench_9226c88e",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "33696951cb5a640e26207a1e3c2a8a7846bcba97dede70abb47a85d3ba09d920",
+      "logical_sample_id": "persistbench_d11b9ede",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "36e36e95cd2cd69b6dd47a4e064e3ece1671ee1e9a4764b782040d03c575624b",
+      "logical_sample_id": "persistbench_51217fe0",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "371fab6aa2059e2572d7cf84aa40e74e92b837f3e85779fdebaebf672f15f6f8",
+      "logical_sample_id": "persistbench_09c68538",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "37259094cced2a45154e4e0def0b9f9d1c9e08efb3977fd0c6d08c4831ce82c2",
+      "logical_sample_id": "persistbench_1338736b",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "39afdff968e7fa19aefcb2b1430bbc0bcfd480707c7f4500c1cd7d88b138927a",
+      "logical_sample_id": "persistbench_fef170ef",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "3a12710ccf3a5045bceb92cecb3674a76a117407d617fa1f6da6ff55e397f040",
+      "logical_sample_id": "persistbench_90cc958f",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "3a357b5f026bd4e8663d2aa9e2fc0c9dd74d1ef0a70b1555ac09b0025b9801c0",
+      "logical_sample_id": "persistbench_1fd7a0db",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "3a6e669077b6de245b227e17dc7982cef33cdc85bdee5a55cf9281885fd6bc06",
+      "logical_sample_id": "persistbench_132e48c6",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "3bf53252a0be24cccb5f59cd45c7c36ba6eaf1d55016802ab41720a73c358a32",
+      "logical_sample_id": "persistbench_9f953f07",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "3c1e577f9c7683181b14a54f5d31b547cb31f56d4a3832d0b75b633ca0f47dae",
+      "logical_sample_id": "persistbench_25d5b949",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "3d2b576e0608225d23de12c0bc8e75eaa0d734d5ab9d7f526dd1ca5ee9327dbe",
+      "logical_sample_id": "persistbench_56602982",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "3df5b86e40398b872b4d1a4b87e4afb0718d0c4ba4cd6ffb28452c667e58e355",
+      "logical_sample_id": "persistbench_487185bc",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "410a488145c2d0985b07c7d457db29b7e5233d89769825848e545bc7114fc204",
+      "logical_sample_id": "persistbench_68a3db13",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "417e9a1f3ef3d49273f0b47c8cbda1f8645ffcbfc707f09c94135333acc3deb0",
+      "logical_sample_id": "persistbench_ae4b45a5",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "283209e38e4fc1b8348d3b3f421dc32c7206818d62157937de1d67e33036002d",
+      "logical_sample_id": "persistbench_1dad0368",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "2a468d4df69cfa64ecb791f5a7e5515c040fafd50c97ec50c4b33d9f1a4209b7",
+      "logical_sample_id": "persistbench_5c1516cc",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "2adc277a60f8a4a83ee13e5508c80f34833ca58db4b6b77db6aded6afb95d19d",
+      "logical_sample_id": "persistbench_bf467f72",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "2b069d585f0ec189932b23622bf1e399c06336270d0049cbd8bdb6aee84def9e",
+      "logical_sample_id": "persistbench_c5e1fa63",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "2b0fcb4b01508b9e6ca40ecb1e59412f1c09b0a42ad1dccdb00e5413a7307f2c",
+      "logical_sample_id": "persistbench_2d06a656",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "2b6a264c0a2600bbe31c85f913aec84c7863913809fcd4aa35e9f244906bef2e",
+      "logical_sample_id": "persistbench_a3f57694",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "2ed9e4bbc69a2a9cd85eaf2886c60864673ff072657c64bd79afb0c9d684839d",
+      "logical_sample_id": "persistbench_e544d178",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "309a609fdf11f7daf9af8da03f6dbab88ef84e848d5ecc44e6d3a1a1e1b36ed8",
+      "logical_sample_id": "persistbench_0dc21872",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "31365ec521fa28c8b4920d366f03b29282749ad845291b14a4519c796dfefe7d",
+      "logical_sample_id": "persistbench_2fa32700",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "3325f76dce9ec0a2d03b06a5b791d9ef9f103f9ca22b9c86c1ff0fde453eb713",
+      "logical_sample_id": "persistbench_184e1ada",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "34e4a18e5b0717618c459b1f37cabbcf80e8a5dd43f8633bcf4c94514700b250",
+      "logical_sample_id": "persistbench_19f59447",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "37c2a01766ea61e3b17c1ebbded9da98aec42d96d56379f25e27038d2ed303d9",
+      "logical_sample_id": "persistbench_ef4d941e",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "39219289c460c65da14b6be7144af4f0dbe0f5b3fe9cd5b2cbebf0a9156537ea",
+      "logical_sample_id": "persistbench_0e4966bb",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "3a386a5b0657da18e511f2da2d0f9f4768246545f610cb1d299616f73f367afd",
+      "logical_sample_id": "persistbench_164d4050",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "3b55d0c04ac64983b4e24adb0ff55ae8d836cc172b37c06a5083d01592aa66b7",
+      "logical_sample_id": "persistbench_12d9ec8a",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "3beedf512f383931ea29fe26d1eca93e7fb72137d9b70a67415c079bd386966c",
+      "logical_sample_id": "persistbench_454fd6db",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "3e373ef78ba9d89617ed7132182c9b4029011780f7f7f5651b2161633ff6f8db",
+      "logical_sample_id": "persistbench_3dbcc325",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "410746ba22144cbfa5049d8954006ff188d89a0b5776d4840fe696c799843c11",
+      "logical_sample_id": "persistbench_2492e976",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "43e6722c0846602c8620489fac48e4ac9b57976c7da34199a19f322afd72faf3",
+      "logical_sample_id": "persistbench_1b4cf6d2",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "46a22f945e5df517a27e8a0b74e20be2358e3811af8bc77afbf9a827d86edd04",
+      "logical_sample_id": "persistbench_dc463673",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "483244b5194e9262d7053e614585360e3264c2f0d48b5697aab09d49b7fbbfa4",
+      "logical_sample_id": "persistbench_6c7ce332",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "4bd072a8a99685b6dad1699a2ac32b1118a8ba13be743f074bcc6bec5128223b",
+      "logical_sample_id": "persistbench_45f7ba56",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "4c72db58349ba16fe4e8db7bea08bab820cb12b20e82d22d3ebb1fbfd94db6d5",
+      "logical_sample_id": "persistbench_f2b68dbe",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "4f609cee6e56955a3a455af1d555aa02d388326e0e8512fa5056d95932189d6c",
+      "logical_sample_id": "persistbench_0494747b",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "508078759f8c4127295e3131618261c73ec5b97a7ada3c8d3ffb559e3cfddad2",
+      "logical_sample_id": "persistbench_3efcd049",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "54fd6d9e77ff4be4642e6c202c7ab839c1b187de7cc2ef96b5e26489f073055d",
+      "logical_sample_id": "persistbench_52a3aad5",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "55c0d3fc6c275d09c2dc00ef064104bbd6983e3bc84a2e5a937a5e3d6d5a449d",
+      "logical_sample_id": "persistbench_70dafd98",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "5624ffb090de5d101d44098104ec75b8ea27b02e736cdcaa5c9ad4db37d03e0b",
+      "logical_sample_id": "persistbench_e017e0ac",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "590344cca1386999ccba4486f4bb60f984ca5c2ba2dcaf18a59b9148ab94479a",
+      "logical_sample_id": "persistbench_abeadb94",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "5d903c34392bdcf0458f2a8e9aeb503127c81ae5b3a6454ca9c57af65e3505ec",
+      "logical_sample_id": "persistbench_6250938a",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "64e6ef873d642217229734e07ac48a1a184e0a2dfcd685f1facaadb8c885d7ee",
+      "logical_sample_id": "persistbench_cd3989a9",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "65ea35015bb445ea9d67cd1eb9d08e0834b0339e487a9343daaa7367eaa65ac8",
+      "logical_sample_id": "persistbench_0714d4b2",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "67ef4dd0cb448d575cea1c1137ce6126504beaef748825101a0f5bf95bcf5c41",
+      "logical_sample_id": "persistbench_10edf476",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "68edd4fa637f873d414d28862a32e529fbf672617f1f878464d7f74d4191d335",
+      "logical_sample_id": "persistbench_3bac5292",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "6a5aeaa9bea004cb5e2ef33251551a3133c12da4671452abff90fc6746b3759d",
+      "logical_sample_id": "persistbench_5c49a123",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "6dc5dbbb96d5e8ac956d58c71a0ac4c6ab588b6bf67b4ae463d8e43eac5b6600",
+      "logical_sample_id": "persistbench_5f5b6030",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "6ec4359b22033764ef8894437a006eb1ec5457372480acbdce901c309492d07e",
+      "logical_sample_id": "persistbench_1f229088",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "6facf4491c458089953980cb65462af91c987ccd91acc89a8e513b83a72c8169",
+      "logical_sample_id": "persistbench_f8433261",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "6fb197c7ec6dfa89ba70bb4c7ef20c502e22cc9a4eac01fb3eb42e1f57286e32",
+      "logical_sample_id": "persistbench_ce264571",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "707299c330d18e87b4b9331ff36f43cfdf4773c8fcc0926de5793be938f91c87",
+      "logical_sample_id": "persistbench_52e29fdf",
+      "task": "persistbench_beneficial_memory"
+    }
+  ],
+  "schema_version": "PREFERENCEGUARD_PHASE_1A_SPLIT_V1",
+  "selection_policy": "Sort eligible samples by SHA256(namespace|task|logical_sample_id), ascending; dataset order is not used.",
+  "source_provenance": {
+    "persistbench_beneficial_memory": {
+      "bundled_logical_sample_count": 100,
+      "official_epochs_per_logical_sample": 1,
+      "source_dataset": "inspect_evals/src/inspect_evals/persistbench/benchmark_samples/beneficial_samples.jsonl",
+      "source_dataset_sha256": "26a951bee5da72049616674ffacfc9c725cd65f88355bee579831e4f51a044d3"
+    },
+    "persistbench_cross_domain": {
+      "bundled_logical_sample_count": 200,
+      "official_epochs_per_logical_sample": 3,
+      "source_dataset": "inspect_evals/src/inspect_evals/persistbench/benchmark_samples/cross_domain.jsonl",
+      "source_dataset_sha256": "883fbf9e5733cfb2f577e8cd18ffe9a7ec4ea96f0195449fabe8b3fa2b6687b4"
+    },
+    "persistbench_sycophancy": {
+      "bundled_logical_sample_count": 200,
+      "official_epochs_per_logical_sample": 3,
+      "source_dataset": "inspect_evals/src/inspect_evals/persistbench/benchmark_samples/sycophancy.jsonl",
+      "source_dataset_sha256": "634f5a533b4a3a7af55052b2c4bd55b4d30634e862ea4a48fb8e4dbbab412858"
+    }
+  },
+  "split": "frozen_validation",
+  "split_namespace": "PreferenceGuard_Phase1A_v1"
+}

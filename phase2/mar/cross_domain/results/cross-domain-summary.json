@@ -1,0 +1,93 @@
+{
+  "phase": "PHASE_2_MAR_CROSS_DOMAIN_GUARDRAIL",
+  "status": "PHASE_2_MAR_CROSS_DOMAIN_GUARDRAIL_PASS_ROBUST_TO_UNSCORED_SLOTS",
+  "result": {
+    "pass": 52,
+    "fail": 4,
+    "officially_scored": 56,
+    "unscored": 4,
+    "robust_lower_bound": {
+      "pass": 52,
+      "rate": 0.8666666666666667
+    },
+    "robust_upper_bound": {
+      "pass": 56,
+      "rate": 0.9333333333333333
+    }
+  },
+  "paired_transitions": {
+    "PASS_TO_PASS": 49,
+    "PASS_TO_FAIL": 3,
+    "FAIL_TO_PASS": 2,
+    "FAIL_TO_FAIL": 1,
+    "recoveries": 2,
+    "regressions": 3,
+    "net_gain": -1,
+    "comparable_count": 55
+  },
+  "router_behavior": {
+    "decisions": {
+      "ALLOW": 74,
+      "CONTEXT_ONLY": 110,
+      "BLOCK": 455
+    },
+    "distribution_percent": {
+      "ALLOW": 11.580594679186229,
+      "CONTEXT_ONLY": 17.214397496087635,
+      "BLOCK": 71.20500782472612
+    },
+    "zero_allow_queries": 28,
+    "malformed": 0,
+    "degraded_fallback": 0,
+    "missing_ids": 0,
+    "duplicate_ids": 0,
+    "hallucinated_ids": 0
+  },
+  "efficiency": {
+    "router_latency_seconds": {
+      "median": 38.88536290000047,
+      "mean": 47.82727810833288,
+      "p95": 115.91069040000002
+    },
+    "generator_latency_seconds": {
+      "median": 23.086096499999258,
+      "mean": 24.452963556667115,
+      "p95": 44.129154500005825
+    },
+    "judge_latency_seconds": {
+      "median": 5.181270799999766,
+      "mean": 6.398471966071286,
+      "p95": 13.658185499996762
+    },
+    "router_tokens": {
+      "input_tokens": 12985,
+      "output_tokens": 310872,
+      "reasoning_tokens": 294348,
+      "total_tokens": 365073
+    },
+    "generator_tokens": {
+      "input_tokens": 8720,
+      "output_tokens": 119359,
+      "reasoning_tokens": 67327,
+      "total_tokens": 415823
+    },
+    "judge_tokens": "UNAVAILABLE__OFFICIAL_SCORER_DOES_NOT_EXPOSE_USAGE",
+    "cost": "UNAVAILABLE__PROVIDER_DID_NOT_EXPOSE_COST"
+  },
+  "scoring_infrastructure": {
+    "judge_http_attempts": 61,
+    "http_429": 5,
+    "infrastructure_resubmissions": 5,
+    "successful_completions": 56
+  },
+  "integrity": {
+    "semantic_retries": 0,
+    "sdk_max_retries": 0,
+    "reserve_reads": 0,
+    "frozen_validation_reads": 0,
+    "additional_sycophancy_calls": 0,
+    "additional_beneficial_calls": 0,
+    "protocol_sha256": "8bf477407fcd7b10b99d8a337f1e49212aa0da99b103f48a86c9697bc355266a"
+  },
+  "failure": null
+}

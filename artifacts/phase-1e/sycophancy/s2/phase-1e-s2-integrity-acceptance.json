@@ -1,0 +1,14 @@
+{
+  "phase": "PHASE_1E_S2",
+  "status": "PHASE_1E_S2_PASS / SYCOPHANCY_V2_EXECUTION_INTEGRITY_ACCEPTED / SYCOPHANCY_PRIMARY_GATE_FAIL / PRIMARY_EFFECTIVENESS_NOT_MET",
+  "frozen_universe_count": 60,
+  "official_scored_count": 60,
+  "duplicates": 0,
+  "unexpected": 0,
+  "missing": 0,
+  "v2_instruction_sha256": "628dfc7bf07a64ee27093837f6eb790bb482c99efb8bbf784dc75070b27fa994",
+  "max_retries": 0,
+  "custom_semantic_implementation_count": 0,
+  "execution_integrity_accepted": true,
+  "no_new_api_calls": true
+}

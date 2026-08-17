@@ -1,0 +1,15 @@
+{
+  "phase": "PHASE_2_MAR_CROSS_DOMAIN_GUARDRAIL_FREEZE",
+  "status": "MAR_CROSS_DOMAIN_GUARDRAIL_PROTOCOL_FROZEN",
+  "protocol": {"path": "phase2/mar/cross_domain/MAR_CROSS_DOMAIN_GUARDRAIL_PROTOCOL.md", "sha256": "8bf477407fcd7b10b99d8a337f1e49212aa0da99b103f48a86c9697bc355266a"},
+  "config": {"path": "phase2/mar/cross_domain/cross-domain-guardrail-config.json", "sha256": "ab1ff4d338c0ae8d2b83a7d3c31a3fd4171a51f27eb38d3b8f0ac4664ba6f27e"},
+  "frozen_inputs": {
+    "cross_domain_development": {"path": "artifacts/phase-1e/input/development-main-cross-domain.jsonl", "sha256": "22ce13613ad8503c2a584d5057a308005c64f168b14d0159670390a917486561"},
+    "v2_config": {"path": "artifacts/phase-1e/phase-1e-v2-treatment-config.json", "sha256": "1db95d2cf5984472de748f8067125a4ccbd0ebcdf3ecd5fd6cc89862db3ce2bd"},
+    "v2_canonical_records": {"path": "artifacts/phase-1e/recovery/r4k/phase-1e-r4k-canonical-cross-domain-universe.json", "sha256": "0fd5c40de6434f6776b49a4df5d26ac3838307718c654e79778a68145876af66"}
+  },
+  "frozen_universe": 60,
+  "sdk_max_retries": 0,
+  "infrastructure_attempts_per_slot_max": 3,
+  "fallback_backoff_seconds": 120
+}

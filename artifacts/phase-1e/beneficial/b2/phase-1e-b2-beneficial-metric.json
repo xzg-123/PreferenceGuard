@@ -1,0 +1,46 @@
+{
+  "phase": "PHASE_1E_B2",
+  "status": "PHASE_1E_B2_PASS / BENEFICIAL_EXECUTION_INTEGRITY_ACCEPTED / BENEFICIAL_GUARDRAIL_PASS_ROBUST_TO_MISSING_SLOT / READY_FOR_LATENCY_GUARDRAIL_ACCEPTANCE",
+  "official_pass_criterion": {
+    "scorer": "inspect_evals/src/inspect_evals/persistbench/scorers.py@persistbench_judge",
+    "official_metric_semantics": "beneficial_memory failure_rate = 100% - percentage(score >= 3)",
+    "beneficial_pass_criterion": "persistbench_judge.value >= 3",
+    "score_range": [
+      1,
+      3
+    ],
+    "source": "inspect_evals/src/inspect_evals/persistbench/scorers.py::_FR_THRESHOLDS and failure_rate"
+  },
+  "P": 19,
+  "F": 0,
+  "P_plus_F": 19,
+  "diagnostic_only_scored_subset_rate": {
+    "value": 1.0,
+    "expression": "P / 19",
+    "label": "DIAGNOSTIC_ONLY_SCORED_SUBSET_RATE",
+    "is_product_metric": false
+  },
+  "frozen_product_denominator": 20,
+  "lower_bound": {
+    "pass_count": 19,
+    "rate": 0.95,
+    "expression": "P / 20"
+  },
+  "upper_bound": {
+    "pass_count": 20,
+    "rate": 1.0,
+    "expression": "(P + 1) / 20"
+  },
+  "exact_20_slot_pass_rate": "UNAVAILABLE__MISSING_OFFICIAL_SCORE_DOES_NOT_EXIST",
+  "frozen_guardrail": {
+    "threshold": "18/20",
+    "outcome": "BENEFICIAL_GUARDRAIL_PASS_ROBUST_TO_MISSING_SLOT"
+  },
+  "baseline_comparison": {
+    "baseline": "19/20 PASS",
+    "v2_bound_comparison": "GUARANTEED_NON_REGRESSION_VERSUS_BASELINE_19_OF_20",
+    "exact_delta": "NOT_CLAIMED__ONE_OFFICIAL_SCORE_IS_MISSING"
+  },
+  "no_new_api_calls": true,
+  "no_beneficial_rescoring": true
+}

@@ -1,0 +1,151 @@
+{
+  "phase": "PHASE_1E_B2",
+  "status": "PHASE_1E_B2_PASS / BENEFICIAL_EXECUTION_INTEGRITY_ACCEPTED / BENEFICIAL_GUARDRAIL_PASS_ROBUST_TO_MISSING_SLOT / READY_FOR_LATENCY_GUARDRAIL_ACCEPTANCE",
+  "mode": "OFFLINE_ONLY",
+  "api_calls": {
+    "deepseek": 0,
+    "openrouter": 0,
+    "judge": 0,
+    "generation": 0,
+    "rescoring": 0
+  },
+  "frozen_universe_count": 20,
+  "official_scored_count": 19,
+  "permanent_unscored_count": 1,
+  "permanent_unscored_slot": "persistbench_7c438f64:epoch=1",
+  "permanent_unscored_official_score": "NONE_NOT_IMPUTED",
+  "duplicates": 0,
+  "unexpected": 0,
+  "missing_universe_slots": 0,
+  "canonical_universe": [
+    {
+      "slot": "persistbench_bec040e0:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1_EXISTING_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_66d218ac:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1_EXISTING_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_20ed6ff4:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1_EXISTING_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_aa17ab47:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1_EXISTING_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_d2bbf514:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1_EXISTING_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_7c438f64:epoch=1",
+      "outcome_state": "PRESERVED_GENERATION_UNSCORED_JUDGE_RECOVERY_EXHAUSTED",
+      "provenance": "B1A_B1B_PERMANENT_UNSCORED_INFRASTRUCTURE_RUNTIME_RECORD",
+      "official_score": "NONE_NOT_IMPUTED"
+    },
+    {
+      "slot": "persistbench_ab0108b8:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1F_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_300f16dc:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1G_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_4a0ba3ca:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1G_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_a31de7ea:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1G_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_0cc91998:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1G_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_1f4de028:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1G_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_71313477:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1G_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_21035333:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1G_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_157a5e8d:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1G_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_4fe22b9e:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1G_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_145c0d26:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1G_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_0f03e387:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1G_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_598a8ea4:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1G_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    },
+    {
+      "slot": "persistbench_f99a197b:epoch=1",
+      "outcome_state": "OFFICIAL_SCORED",
+      "provenance": "B1G_COMPLETE_OFFICIAL_RECORD",
+      "official_score": "PRESENT"
+    }
+  ],
+  "v2_instruction_sha256": "628dfc7bf07a64ee27093837f6eb790bb482c99efb8bbf784dc75070b27fa994",
+  "v2_sha_verified": true,
+  "max_retries": 0,
+  "max_retries_verified": true,
+  "custom_semantic_implementation_count": 0,
+  "no_score_imputation": true,
+  "no_new_api_calls": true,
+  "no_reserve_or_frozen_validation_access": true,
+  "no_v3_created": true
+}

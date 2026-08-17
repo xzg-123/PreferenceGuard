@@ -1,0 +1,183 @@
+{
+  "counts_by_task": {
+    "persistbench_beneficial_memory": 10,
+    "persistbench_cross_domain": 10,
+    "persistbench_sycophancy": 10
+  },
+  "records": [
+    {
+      "deterministic_rank_sha256": "1c821afe913b165c51d3963581d40206565a8c62be6a5b22f34dbbc66da7c2ad",
+      "logical_sample_id": "persistbench_d90a7756",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "1dafee072d868eb1c6c237aa99a70ec87676c3636c7187e046aa5f14c5c350e3",
+      "logical_sample_id": "persistbench_3fe63881",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "1dc2210467a1e1ecf2056d52a9ccde6472b69a09abfe66b2e850d570d298c01d",
+      "logical_sample_id": "persistbench_dbaf2afb",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "23b871d673402c3623bc5b9e1fea39c85210c74dca83cc7687d8db3d2b076b2b",
+      "logical_sample_id": "persistbench_24554b16",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "240a332771a4c250f21e5fbd1204cdfd86ccfe222d6a35d50f35705cde8a91c3",
+      "logical_sample_id": "persistbench_1ac9da3c",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "256c2e45a06a49c17b5e99ff44dfc48583984e2f4fe0033f22c10e88380f4933",
+      "logical_sample_id": "persistbench_b6355d6b",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "27fdf9df855c2c51d5f7ac0fbf577115d96ed0971dfef072504400c68e46352d",
+      "logical_sample_id": "persistbench_c8995899",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "2c96adb147a17d68ae54d8af7defdb843dea03975705a179de13d0328b7fdb0f",
+      "logical_sample_id": "persistbench_8deecf1c",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "2cdb04cc07a14ab7c6ca06a236dfd33ef908cb190bf2543471902d44f0ba65ad",
+      "logical_sample_id": "persistbench_b0cac816",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "2d530cb8d2295d8ea055b470b31c908a4a8557baca4763068a77ed7fd58b0e12",
+      "logical_sample_id": "persistbench_523e6755",
+      "task": "persistbench_cross_domain"
+    },
+    {
+      "deterministic_rank_sha256": "1ed8961099c779f88ccfeb644b94d4bcf7b8adc080f1a937d134c151222a179d",
+      "logical_sample_id": "persistbench_f5494dce",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "2090302464a7e4e956e36d6b7afdd13bedf66c2bdc4c3865b093ad1e9686636f",
+      "logical_sample_id": "persistbench_33b7be3d",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "20b720b0009a4e801ba2b356248bfe0f6816876351a29939db2b78d45fb93383",
+      "logical_sample_id": "persistbench_8a8793c4",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "210625d00f8dde4ec71de6535372e34bebbbc7cfe9387e1b205fac18e0b53cb1",
+      "logical_sample_id": "persistbench_f87484aa",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "217d584d8336482531bd73f80ac63dac2b08ac5ccd9440a286077ca75f4968c4",
+      "logical_sample_id": "persistbench_cfb5e86e",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "22ee796581c04de22b3eb9ec09ec07cf0a9ada6527c0cea4d1a9005084dfc7e5",
+      "logical_sample_id": "persistbench_04669115",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "23867773b1d6b7419cba3c5799f7d72dc6a39fc8d69db42cf143b62a738dbf17",
+      "logical_sample_id": "persistbench_f2874d8a",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "267b1defc7d2635d3de19f4ce29992f8bf2ec9f4e4ad42e3c8539cba27c4df8f",
+      "logical_sample_id": "persistbench_b59459a8",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "27aaca65bb11b3bfb2cfff44bfb6368b4530af3f9f7d2672dab166d7f96cb153",
+      "logical_sample_id": "persistbench_0334eab4",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "27b026d441025879477d3f60a6e2a320dd3367e4751f5bf67c70409429cf5ffd",
+      "logical_sample_id": "persistbench_70bc4523",
+      "task": "persistbench_sycophancy"
+    },
+    {
+      "deterministic_rank_sha256": "2e18b0eaded0fe564fbbcca8ea1ba57cf58fc10c13624ad92ea252efbd416f77",
+      "logical_sample_id": "persistbench_a92ce202",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "306f342144caa51868badf1597af680e7116eb4b660d67f4508cffc652bf7fad",
+      "logical_sample_id": "persistbench_e6ec85c5",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "32c56fbfaaf27ceb08671cde9d7b21626cc67ffd99daa09c5e9ae4f72c228faa",
+      "logical_sample_id": "persistbench_30a83167",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "33b7899c584f9fd9b8591c672d8768ff9d94150f4ef6225509c3e27746bbf1e6",
+      "logical_sample_id": "persistbench_687cfa22",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "3552be2c80dac579eb1fd1aa198a2ff0f2adea82089dad4eaeda4671de38058f",
+      "logical_sample_id": "persistbench_9b221b13",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "35eb4887b6cca501eb702133df55e9e87b044a4efe7e57d6ab776ebb5ae7c69f",
+      "logical_sample_id": "persistbench_fa66cb06",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "37e048f922760f9e0d4fe4e2c33254603a46e9ee00d4742747404e5bb18f1c1c",
+      "logical_sample_id": "persistbench_9e2b7b16",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "3c3cad82eb23bdc03311d383df69ac4f82a44a36bfcb9bcc9d8ad2492d048cf3",
+      "logical_sample_id": "persistbench_a85e33e3",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "3e984aba44fb22b7c7798422ebcd6a146a3513a5dd074efb5d8179f3223ced03",
+      "logical_sample_id": "persistbench_aa888ad9",
+      "task": "persistbench_beneficial_memory"
+    },
+    {
+      "deterministic_rank_sha256": "424809d5134ae66d5b2ed7c8009fd15a0ed00e1214069f415c6a6b4dbccf6509",
+      "logical_sample_id": "persistbench_2c7440c8",
+      "task": "persistbench_beneficial_memory"
+    }
+  ],
+  "schema_version": "PREFERENCEGUARD_PHASE_1A_SPLIT_V1",
+  "selection_policy": "Sort eligible samples by SHA256(namespace|task|logical_sample_id), ascending; dataset order is not used.",
+  "source_provenance": {
+    "persistbench_beneficial_memory": {
+      "bundled_logical_sample_count": 100,
+      "official_epochs_per_logical_sample": 1,
+      "source_dataset": "inspect_evals/src/inspect_evals/persistbench/benchmark_samples/beneficial_samples.jsonl",
+      "source_dataset_sha256": "26a951bee5da72049616674ffacfc9c725cd65f88355bee579831e4f51a044d3"
+    },
+    "persistbench_cross_domain": {
+      "bundled_logical_sample_count": 200,
+      "official_epochs_per_logical_sample": 3,
+      "source_dataset": "inspect_evals/src/inspect_evals/persistbench/benchmark_samples/cross_domain.jsonl",
+      "source_dataset_sha256": "883fbf9e5733cfb2f577e8cd18ffe9a7ec4ea96f0195449fabe8b3fa2b6687b4"
+    },
+    "persistbench_sycophancy": {
+      "bundled_logical_sample_count": 200,
+      "official_epochs_per_logical_sample": 3,
+      "source_dataset": "inspect_evals/src/inspect_evals/persistbench/benchmark_samples/sycophancy.jsonl",
+      "source_dataset_sha256": "634f5a533b4a3a7af55052b2c4bd55b4d30634e862ea4a48fb8e4dbbab412858"
+    }
+  },
+  "split": "development_reserve",
+  "split_namespace": "PreferenceGuard_Phase1A_v1"
+}

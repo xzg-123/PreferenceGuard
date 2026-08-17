@@ -1,0 +1,44 @@
+{
+  "phase": "PHASE_1D",
+  "status": "PHASE_1D_EXECUTION_INCOMPLETE",
+  "recorded_for": "MEMORY_AUTHORITY_RULE_V1_DEVELOPMENT_MAIN_TREATMENT",
+  "reason": "The formal Cross-domain evaluation process was no longer present while its Inspect log remained in started status. The log contains 52 scored records, not the required 60, and no terminal success or failure status was written.",
+  "formal_execution": {
+    "cross_domain": {
+      "task": "persistbench_cross_domain",
+      "log_path": "artifacts/phase-1d/logs/2026-08-15T20-23-46-00-00_persistbench-cross-domain_nFDaEr33DAZCB6fcYqirBP.eval",
+      "log_status": "started",
+      "required_records": 60,
+      "recorded_scored_records": 52,
+      "recorded_sample_errors": 0,
+      "missing_slots": [
+        "persistbench_380f234d:epoch=3",
+        "persistbench_3a410733:epoch=3",
+        "persistbench_70cb0bf1:epoch=3",
+        "persistbench_788eb782:epoch=3",
+        "persistbench_aebb0255:epoch=3",
+        "persistbench_c51c3c8b:epoch=3",
+        "persistbench_ee1bf6af:epoch=3",
+        "persistbench_f78883e3:epoch=3"
+      ]
+    },
+    "sycophancy": {
+      "task": "persistbench_sycophancy",
+      "status": "NOT_STARTED_AFTER_UPSTREAM_FORMAL_RUN_INCOMPLETE"
+    },
+    "beneficial_memory": {
+      "task": "persistbench_beneficial_memory",
+      "status": "NOT_STARTED_AFTER_UPSTREAM_FORMAL_RUN_INCOMPLETE"
+    }
+  },
+  "integrity_constraints_observed": {
+    "treatment": "MEMORY_AUTHORITY_RULE_V1",
+    "development_main_only": true,
+    "reserve_accessed": false,
+    "frozen_validation_accessed": false,
+    "automatic_rerun_performed": false,
+    "api_calls_after_incomplete_detection": false
+  },
+  "decision": "NO_FORMAL_METRICS_OR_PRODUCT_DECISION",
+  "next_action_requires_explicit_user_direction": true
+}

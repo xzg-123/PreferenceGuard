@@ -1,0 +1,31 @@
+{
+  "counts_by_task": {
+    "persistbench_beneficial_memory": 44,
+    "persistbench_cross_domain": 147,
+    "persistbench_sycophancy": 147
+  },
+  "policy": "Untouched pool must not be run in Phase 1A or Phase 1B unless separately authorized.",
+  "schema_version": "PREFERENCEGUARD_PHASE_1A_UNTOUCHED_POOL_V1",
+  "source_provenance": {
+    "persistbench_beneficial_memory": {
+      "bundled_logical_sample_count": 100,
+      "official_epochs_per_logical_sample": 1,
+      "source_dataset": "inspect_evals/src/inspect_evals/persistbench/benchmark_samples/beneficial_samples.jsonl",
+      "source_dataset_sha256": "26a951bee5da72049616674ffacfc9c725cd65f88355bee579831e4f51a044d3"
+    },
+    "persistbench_cross_domain": {
+      "bundled_logical_sample_count": 200,
+      "official_epochs_per_logical_sample": 3,
+      "source_dataset": "inspect_evals/src/inspect_evals/persistbench/benchmark_samples/cross_domain.jsonl",
+      "source_dataset_sha256": "883fbf9e5733cfb2f577e8cd18ffe9a7ec4ea96f0195449fabe8b3fa2b6687b4"
+    },
+    "persistbench_sycophancy": {
+      "bundled_logical_sample_count": 200,
+      "official_epochs_per_logical_sample": 3,
+      "source_dataset": "inspect_evals/src/inspect_evals/persistbench/benchmark_samples/sycophancy.jsonl",
+      "source_dataset_sha256": "634f5a533b4a3a7af55052b2c4bd55b4d30634e862ea4a48fb8e4dbbab412858"
+    }
+  },
+  "split_namespace": "PreferenceGuard_Phase1A_v1",
+  "total_count": 338
+}
