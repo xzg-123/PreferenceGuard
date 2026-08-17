@@ -13,9 +13,9 @@ Problem definition → baseline → evaluation → failure analysis
 → product hypothesis → frozen experiment → decision
 ```
 
-All reported outcomes below come from frozen project artifacts. This is
-development evidence, not unseen validation, a production-readiness claim, or a
-state-of-the-art claim.
+Experimental data, metrics, and detailed result artifacts are intentionally not
+summarized in this README. This repository presents the product method and
+implementation; detailed results can be shared separately when appropriate.
 
 ## Project Overview
 
@@ -107,44 +107,34 @@ secrets before publication.
 The development evaluation uses three fixed task routes from the upstream
 PersistBench implementation:
 
-| Route | Frozen universe | Product question |
-| --- | ---: | --- |
-| Sycophancy | 60 epoch records | Can memory governance prevent preference-aligned but unsupported answers? |
-| Beneficial Memory | 20 epoch records | Does the guardrail retain helpful personalization? |
-| Cross-domain | 60 epoch records | Does the safety treatment preserve broader performance? |
+| Route | Product question |
+| --- | --- |
+| Sycophancy | Can memory governance prevent preference-aligned but unsupported answers? |
+| Beneficial Memory | Does the guardrail retain helpful personalization? |
+| Cross-domain | Does the safety treatment preserve broader performance? |
 
 The final MAR protocol froze one official development run, zero semantic
 retries, no Development Reserve access, and no Frozen Validation access. A
 decoupled execution persisted router/generator output before scoring so Judge
-infrastructure recovery could not alter treatment semantics. See the
-[final development review](phase2/mar/final/PHASE_2_MAR_DEVELOPMENT_FINAL_REVIEW.md).
+infrastructure recovery could not alter treatment semantics.
 
 ## Baseline
 
-The frozen baseline was an unmodified memory-aware generation setup. Its
-Sycophancy result was **11/60 (18.33%)**. The first declarative Memory Authority
-Rule (V1) reached **16/60 (26.67%)**; the subsequent Memory Authority Procedure
-(V2) reached **26/60 (43.33%)**. These are development comparisons, not a claim
-of generalization.
-
-Source: [Phase 1 baseline report](artifacts/phase-1b/PHASE_1B1_COMPLETE_BASELINE_REPORT.md),
-[V1 treatment summary](artifacts/phase-1d/phase-1d-treatment-summary.json), and
-[V2 primary metric](artifacts/phase-1e/sycophancy/s2/phase-1e-s2-primary-metric.json).
+The frozen baseline was an unmodified memory-aware generation setup. The first
+Memory Authority Rule (V1), the subsequent Memory Authority Procedure (V2), and
+MAR each made authority controls more explicit. Quantitative comparisons are
+intentionally not shown in this README.
 
 ## Failure Analysis
 
-The baseline made the product risk concrete: only one Sycophancy logical sample
-was a passing control, so a naive “more retrieval” approach would not answer the
-authority problem. The analysis separated product failure from data,
-evaluation, and infrastructure failure, then focused the treatment on
+The analysis separated product failure from data, evaluation, and infrastructure
+failure, then focused the treatment on
 `USER_BELIEF_OVERWEIGHTED` behavior rather than changing the upstream scorer or
 benchmark split.
 
-The V1 result improved Sycophancy but missed its pre-frozen primary threshold.
-That was treated as a decision signal, not success theatre: the next hypothesis
-was an explicit independent-judgment procedure (V2), followed by a separate
-hard-gating router (MAR). The frozen contracts and failure schema are retained
-in [docs](docs/).
+The next hypothesis was an explicit independent-judgment procedure (V2),
+followed by a separate hard-gating router (MAR). The frozen contracts and
+failure schema are retained in [docs](docs/).
 
 ## Optimization / Treatment
 
@@ -164,22 +154,14 @@ criterion, or product gate changed in that reliability work.
 
 ## Key Results
 
-| Frozen development measure | Result | Interpretation |
-| --- | ---: | --- |
-| Sycophancy MAR robust lower bound | **36/60 (60.00%)** | **+10 passes / +16.67pp** vs V2; the four early-stop unscored slots are treated as non-passing. |
-| Sycophancy MAR robust range | **36–40/60 (60.00%–66.67%)** | The primary gate is robust to the unscored slots. |
-| Beneficial Memory Preservation Rate | **17/18 (94.44%)** | Comparable V2-pass records preserved by MAR; one regression remains visible. |
-| Beneficial Memory robust lower bound | **18/20 (90.00%)** | Frozen guardrail passed. |
-| Cross-domain robust lower bound | **52/60 (86.67%)** | Frozen guardrail passed; this was preservation, **not improvement** (paired net gain −1). |
-
-The exact summaries and hashes are available in the
-[Sycophancy report](phase2/mar/decoupling/results/PHASE_2_MAR_SYCOPHANCY_PRIMARY_REPORT.md),
-[Beneficial Memory report](phase2/mar/beneficial/results/PHASE_2_MAR_BENEFICIAL_GUARDRAIL_REPORT.md),
-and [Cross-domain report](phase2/mar/cross_domain/results/PHASE_2_MAR_CROSS_DOMAIN_GUARDRAIL_REPORT.md).
+The project produced frozen development evidence for the primary product risk
+and its guardrails. To keep personal experiment data out of the project
+overview, this README intentionally does not publish metrics, sample counts,
+or artifact links.
 
 ## Demo / Usage
 
-This portfolio repository is intentionally a **reviewable evidence package**,
+This portfolio repository is intentionally a **reviewable method package**,
 not a turnkey benchmark redistribution. The unit-level router mechanics are
 self-contained and can be reviewed or tested locally:
 
@@ -196,8 +178,8 @@ missing generated output; their exclusion is deliberate.
 ## Repository Structure
 
 ```text
-phase2/mar/                 MAR implementation, frozen contracts, configs, aggregate results
-artifacts/                  Selected Phase 1 summaries, integrity reports, and manifests
+phase2/mar/                 MAR implementation, frozen contracts, and configs
+artifacts/                  Local frozen experiment evidence (not summarized in README)
 docs/                       Baseline, failure-analysis, and treatment contracts
 scripts/                    Supporting freeze/assembly/verification utilities
 THIRD_PARTY_NOTICES.md      Upstream provenance, license, and attribution record
@@ -208,18 +190,14 @@ THIRD_PARTY_NOTICES.md      Upstream provenance, license, and attribution record
 - Python 3 for the router, orchestration, and contract tests
 - Inspect AI / Inspect Evals for the upstream evaluation harness
 - PersistBench task/scorer implementation for the frozen development evaluation
-- JSON/JSONL manifests and SHA-256 hashes for artifact integrity
 - DeepSeek generation/router and Kimi judge endpoints in the frozen execution
   environment (credentials and raw provider output are not included)
 
 ## Limitations
 
-- Results are development evidence only: no unseen validation was performed.
-- The official scorer did not expose complete Judge token usage or model cost.
-- MAR adds a router hop and material latency overhead; a reliable complete V2
-  latency/token/cost comparator was unavailable, so no multiplier is claimed.
-- Early-stop slots were intentionally not backfilled; robust lower bounds treat
-  them conservatively.
+- Detailed experiment data and metrics are intentionally absent from this
+  README.
+- No unseen validation is represented in this overview.
 - This repository excludes raw benchmark rows, prompts, completions, judge
   transcripts, traces, and upstream datasets, so it is not a one-command
   reproduction bundle.
